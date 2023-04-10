@@ -1,0 +1,92 @@
+.links {
+    float: right;
+    font: small-caps bold 32px/1 sans-serif;
+    margin-top: 10px;
+    margin-right: 55px;
+    
+}
+
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: -10px;
+    font: small-caps bold 32px/1 sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: white
+}
+
+header {
+    font-size: 2rem;
+    padding: .4em 1em;
+}
+
+.twitter i {
+    margin-top: 8px;
+    margin-right: 50px;
+    font-size: 40px;
+    position: relative; left:525px; top: 2px;
+    color: white;
+}
+
+header, footer {
+    position: fixed;
+    background-color:rgb(40, 150, 180);
+    width: 100%;
+    color:white;
+    z-index: 1;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 10vh;
+    bottom: 0;
+}
+
+footer h2{
+    position:absolute;
+    Left: 50%;
+}
+
+footer p{
+    position:absolute;
+    left: 53%;
+    bottom: 20px;
+    color: white;
+    font: small-caps bold 12px/1 sans-serif;
+}
+
+.forecast{
+    padding-top: 100px;
+    padding-left: 200px;
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    display: flexbox;
+    font: small-caps bold 12px/1 sans-serif;
+}
+
+.day-forecast{
+    font-size: 30px; 
+    background-color: rgb(230, 230, 230);
+}
+
+.fit-picture{
+    width:250px;
+    padding-left: 500px;
+    padding-top: 100px;
+}
+
+.songs a{
+    text-decoration: none;
+    color:black
+}
