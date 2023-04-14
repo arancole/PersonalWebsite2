@@ -90,3 +90,21 @@ footer p{
     text-decoration: none;
     color:black
 }
+
+form {
+    display: grid;
+    gap: 1rem; 
+    font: small-caps bold 12px/1 sans-serif;
+    font-size: 1rem;
+}
+
+label{
+    display: grid;
+}
+
+input{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
